@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_layout_banner_sections",
+  "info": {
+    "displayName": "bannerSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "bio": {
+      "type": "richtext",
+      "required": true
+    },
+    "cvLink": {
+      "type": "string"
+    },
+    "professions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.profession"
+    },
+    "bannerBackground": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

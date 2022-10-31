@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "clientName": {
+      "type": "string"
+    },
+    "clientImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "review": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.star-rating"
+    }
+  }
+}

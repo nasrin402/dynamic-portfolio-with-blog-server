@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_layout_star_ratings",
+  "info": {
+    "displayName": "starRating",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ratingNo": {
+      "type": "integer"
+    }
+  }
+}

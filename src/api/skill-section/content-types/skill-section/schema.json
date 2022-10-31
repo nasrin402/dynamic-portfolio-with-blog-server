@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "skill_sections",
+  "info": {
+    "singularName": "skill-section",
+    "pluralName": "skill-sections",
+    "displayName": "SkillSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skill": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.skill"
+    },
+    "sectionHeading": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

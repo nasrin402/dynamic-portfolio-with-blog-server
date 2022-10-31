@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_skills",
+  "info": {
+    "displayName": "Skill"
+  },
+  "options": {},
+  "attributes": {
+    "HTML": {
+      "type": "string"
+    },
+    "percentage": {
+      "type": "integer"
+    }
+  }
+}

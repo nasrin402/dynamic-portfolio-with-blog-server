@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_socials",
+  "info": {
+    "displayName": "social"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}
