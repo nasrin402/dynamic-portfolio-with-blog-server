@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_layout_portfolio_tags",
+  "info": {
+    "displayName": "portfolioTags"
+  },
+  "options": {},
+  "attributes": {
+    "tagName": {
+      "type": "string"
+    }
+  }
+}

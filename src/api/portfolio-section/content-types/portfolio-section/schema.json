@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolio_sections",
+  "info": {
+    "singularName": "portfolio-section",
+    "pluralName": "portfolio-sections",
+    "displayName": "PortfolioSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Portfolio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.portfolio"
+    },
+    "SectionDes": {
+      "type": "string"
+    },
+    "all": {
+      "type": "string"
+    }
+  }
+}
